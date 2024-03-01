@@ -1,0 +1,64 @@
+#main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#header {
+    height: 75px;
+    background-color: #161076;
+    color: white;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cardGroup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid slategrey;
+    border-radius: 3px;
+    padding: 15px;
+    min-width: 70px;
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+}
+
+.isye {
+    background-color: seagreen;
+}
+
+.cs {
+    background-color: cornflowerblue;
+}
+
+.mgt {
+    background-color: palevioletred;
+}
+
+.card:hover {
+    background-color: slategrey;
+}
+
+.card:hover span {
+    display: none;
+}
+
+.card:hover:before {
+    content: 'Subscribe';
+}
+
+select {
+    border-radius: 3px;
+    border-color: black;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS";
+}
